@@ -90,6 +90,6 @@ def minus():
 
 
 wn.listen()  # Listen for events
-wn.ontimer(advance_state_machine,1000)
+wn.ontimer(advance_state_machine,1500)
     
 wn.mainloop()
